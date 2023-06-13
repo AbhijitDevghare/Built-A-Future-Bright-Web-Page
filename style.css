@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(bg.png);
+    background-attachment: fixed;
+
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+
+nav
+{   
+    display: flex;
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+a:hover
+{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+
+.logo
+{
+    height: 40px;
+    width: 150px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.division
+{
+    color: white;
+    font-size: 40px;
+}
+
+
+nav button
+{
+    height: 30PX;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color:white;
+    background-color:#ba0cc5;
+    padding: 5px;
+    margin-right: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus
+{
+   background-color: green;
+
+}
+
+main{
+
+padding: 200px;
+}
+
+main div{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+
+.textin
+{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 65px;
+}
+h1{
+    font-size: 60px;
+}
+
+.largebutton
+{
+    height: 40px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #ba0cc5;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
